@@ -1,4 +1,4 @@
-var PLAY = 1;
+   var PLAY = 1;
 var END = 0;
 var gameState = PLAY;
 
@@ -32,7 +32,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(500, 500);
   backa = createSprite(400, 400, 400, 400);
   backa.shapeColor = "orange";
   scale.backa = 0.5;
